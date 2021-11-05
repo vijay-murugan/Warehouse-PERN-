@@ -38,8 +38,9 @@ const Input_truck = () => {
         
 
        <Fragment>
-           <h1 className="text-center mt-5">Insert into truck</h1>
-           <form className="d-flex" onSubmit={handleSubmit}>
+           <h1 className="text-center mt-5">Truck</h1>
+           <h3 className="text-left mt-5">Insert</h3>
+           <form className="d-flex mt-10" onSubmit={handleSubmit}>
                <input value = {truck_id} onChange={e => set_truck_id(e.target.value)} type="text"
                 className="Driver-id" placeholder="truck id"/ >  
                <input value = {capacity} onChange={e => set_capacity(e.target.value)} type="number" 

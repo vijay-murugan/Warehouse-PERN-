@@ -59,6 +59,7 @@ const truck_list = (props) => {
 
     return (
         <div className="list-group">
+            <h3 classname="mt-15 mb-10">Details</h3>
             <table className="table table-hover table-dark">
                 <thead>
                     <tr className="bg-primary">
